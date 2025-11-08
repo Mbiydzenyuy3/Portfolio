@@ -1,8 +1,8 @@
-'use client' // This is a Client Component because it uses state (useState)
-
+'use client'
 import { useState } from 'react'
 import Link from 'next/link'
 import { HiMenu, HiX } from 'react-icons/hi' // Hamburger and Close icons
+import { ThemeSwitcher } from './ThemeSwitcher'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -16,24 +16,24 @@ export const Navbar = () => {
   ]
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-gray-950 text-white shadow-md sticky top-0 z-50">
       {/* Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo / Your Name */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
+            <Link href="/" className="text-2xl font-bold text-white">
               LEILA
             </Link>
           </div>
-
+          <ThemeSwitcher />
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+                className="text-white hover:text-blue-600 transition-colors duration-200"
               >
                 {link.label}
               </Link>
