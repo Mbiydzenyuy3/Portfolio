@@ -53,7 +53,7 @@ const ArrowRightIcon = () => (
 
 export default function Portfolio4() {
   return (
-    <div className="hero-card bg-white dark:bg-gray-950 rounded-xl p-8 md:p-12 shadow-sm border border-gray-100 dark:border-gray-800 transition-transform duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-1 hover:shadow-xl max-w-3xl mx-auto">
+    <div className="hero-card bg-white dark:bg-gray-950 mt-15 mb-15 rounded-xl p-8 md:p-12 shadow-sm border border-gray-100 dark:border-gray-800 transition-transform duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-1 hover:shadow-xl max-w-3xl mx-auto">
       <div className="flex flex-col md:flex-row gap-12">
         {/* Left Column: Text Content */}
         <div className="w-full md:w-2/3">

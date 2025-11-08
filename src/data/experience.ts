@@ -15,10 +15,17 @@ export const experience: ExperienceItem[] = [
   },
   {
     role: 'Hackathon Collaborator',
-    organization: 'University Hackathon 2022',
-    date: 'Oct 2022',
+    organization: 'Wikimedia Hackathon 2025',
+    date: 'January 2025',
     description:
-      'Teamed up with 3 other developers to build a "study buddy" app in 48 hours. I was responsible for the entire frontend and API integration.'
+      'Teamed up with other developers to build a "A Movie Collabo tool" in 48 hours. I was responsible for UI/UX design and API integration.'
+  },
+  {
+    role: 'Hackathon Collaborator',
+    organization: 'Rebase Code Camp 2015',
+    date: 'July 2025',
+    description:
+      'Teamed up with 3 other developers to build a "chess app" in 48 hours. I was responsible for the entire frontend and API integration.'
   }
   // Add more job, volunteer, or collaboration items here
 ]

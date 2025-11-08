@@ -16,14 +16,17 @@ export const Navbar = () => {
   ]
 
   return (
-    <nav className="bg-gray-950 text-white shadow-md sticky top-0 z-50">
+    <nav className="bg-white dark:bg-gray-950 shadow-md sticky top-0 z-50">
       {/* Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo / Your Name */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-white">
-              LEILA
+            <Link
+              href="/"
+              className="text-2xl font-bold text-gray-900 dark:text-white"
+            >
+              M.E.L
             </Link>
           </div>
           <ThemeSwitcher />
@@ -33,7 +36,7 @@ export const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-white hover:text-blue-600 transition-colors duration-200"
+                className="text-gray-900 dark:text-white hover:text-blue-600 transition-colors duration-200"
               >
                 {link.label}
               </Link>
@@ -41,7 +44,7 @@ export const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center ">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-gray-900 focus:outline-none"
@@ -59,13 +62,13 @@ export const Navbar = () => {
 
       {/* Mobile Menu (Dropdown) */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg py-2">
+        <div className="md:hidden absolute top-16 left-0 right-0 bg-gray-100 dark:bg-gray-950 shadow-lg py-2 text-white">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setIsOpen(false)} // Close menu on link click
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+              className="block px-4 py-2 text-white hover:bg-gray-100 hover:text-black transition-colors duration-200"
             >
               {link.label}
             </Link>

@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Navbar } from './components/Navbar'
 import { ThemeProvider } from './components/ThemeProvider'
+import { Footer } from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,7 +27,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main>{children}</main>
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
