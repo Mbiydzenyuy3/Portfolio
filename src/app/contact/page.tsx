@@ -47,7 +47,7 @@ export default function ContactPage() {
                     href="mailto:your-email@example.com"
                     className="text-lg text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
                   >
-                    your-email@example.com
+                    mbiydzenyuy3@gmail.com
                   </a>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     Location
                   </h3>
                   <p className="text-lg text-gray-700 dark:text-gray-300">
-                    [Your City, Country] (Remote)
+                    Yaounde, Cameroon
                   </p>
                 </div>
               </div>

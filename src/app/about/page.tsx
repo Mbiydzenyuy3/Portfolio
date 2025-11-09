@@ -1,4 +1,4 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 import { skillCategories } from '@/data/skills'
 import { experience } from '@/data/experience'
 
@@ -9,9 +9,9 @@ export default function AboutPage() {
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <Image
-              src="/images/profile.jpg" // Re-using your profile image
-              alt="A photo of [Your Name]"
+            <img
+              src="https://i.pinimg.com/736x/d6/8a/12/d68a121e960094f99ad8acd37505fb7d.jpg" // Re-using your profile image
+              alt="eileen"
               width={400}
               height={400}
               className="rounded-lg object-cover shadow-lg"
@@ -21,12 +21,11 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
               Hello! I&apos;m Leila, a passionate software engineer and designer
-              based in Cameroon. I love turning complex problems into simple, I
-              love reading tech blogs, contributing to open-source, basketball,
-              and building beautiful, and intuitive designs.
+              based in Cameroon. I love turning problems into solutions with the
+              applications I develop.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              My goal is to build software that is not only functional and
+              My goal is to build softwares that are not only functional and
               performant but also provides a great user experience. When
               I&apos;m not coding, you can find me, &quot;contributing to
               open-source&quot;, &quot;Baskball&quot;, &quot;reading tech

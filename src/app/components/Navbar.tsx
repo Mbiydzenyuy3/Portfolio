@@ -51,9 +51,9 @@ export const Navbar = () => {
               aria-label="Toggle menu"
             >
               {isOpen ? (
-                <HiX className="h-6 w-6" />
+                <HiX className="h-6 w-6 text-black dark:text-white" />
               ) : (
-                <HiMenu className="h-6 w-6" />
+                <HiMenu className="h-6 w-6 text-black dark:text-white" />
               )}
             </button>
           </div>
@@ -62,7 +62,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu (Dropdown) */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 bg-gray-100 dark:bg-gray-950 shadow-lg py-2 text-white">
+        <div className="md:hidden absolute top-16 left-0 right-0 bg-gray-700 dark:bg-gray-950 shadow-lg py-2 text-white">
           {navLinks.map((link) => (
             <Link
               key={link.href}
