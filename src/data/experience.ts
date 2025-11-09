@@ -7,6 +7,14 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
+    role: 'Robotics Instructor (Volunteer)',
+    organization: 'GOETHE INSTITUTE',
+    date: '22 June 2025  - 11 July 2025',
+    description:
+      'Robotics Instructor for kids aged 8-12. Taught basics of robotics and programming using Blockly.'
+  },
+
+  {
     role: 'Frontend Developer (Volunteer)',
     organization: 'Tech For Good NGO',
     date: 'Jan 2023 - Present',

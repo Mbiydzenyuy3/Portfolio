@@ -2,12 +2,12 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const socialLinks = [
   {
-    href: 'https://github.com/your-username',
+    href: 'https://github.com/Mbiydzenyuy3',
     label: 'GitHub',
     icon: FaGithub
   },
   {
-    href: 'https://linkedin.com/in/your-username',
+    href: 'https://www.linkedin.com/in/eileen-leila/',
     label: 'LinkedIn',
     icon: FaLinkedin
   },

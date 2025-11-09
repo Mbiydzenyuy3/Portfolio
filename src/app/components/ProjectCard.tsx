@@ -1,4 +1,5 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
+
 import { HiArrowTopRightOnSquare } from 'react-icons/hi2'
 import type { Project } from '@/data/project' // Import our new type
 import { HiCode } from 'react-icons/hi'
@@ -13,7 +14,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden
                  transition-all duration-300 hover:shadow-xl"
     >
-      <Image
+      <img
         src={project.imageUrl}
         alt={project.title}
         width={500}

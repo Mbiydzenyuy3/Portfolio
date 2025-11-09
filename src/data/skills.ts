@@ -10,7 +10,7 @@ export const skillCategories: SkillCategory[] = [
       'React',
       'Next.js',
       'TypeScript',
-      'JavaScript (ES6+)',
+      'JavaScript',
       'Tailwind CSS',
       'HTML5',
       'CSS3'
@@ -18,17 +18,10 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: 'Backend',
-    skills: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'REST APIs']
+    skills: ['Node.js', 'Express.js', 'NestJS', 'MongoDB', 'REST APIs']
   },
   {
     title: 'Tools & Other',
-    skills: [
-      'Git',
-      'GitHub',
-      'Vercel',
-      'Figma',
-      'Responsive Design',
-      'API Integration'
-    ]
+    skills: ['Git', 'GitHub', 'Figma', 'Cloud']
   }
 ]
