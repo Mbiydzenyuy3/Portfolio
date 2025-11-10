@@ -1,0 +1,44 @@
+export interface ExperienceItem {
+  id?: number
+  role: string
+  organization: string
+  date: string
+  description: string
+}
+
+export const experience: ExperienceItem[] = [
+  {
+    id: 1,
+    role: 'Robotics Instructor (Volunteer)',
+    organization: 'GOETHE INSTITUTE',
+    date: '22 June 2025  - 11 July 2025',
+    description:
+      'Robotics Instructor for kids aged 8-12. Taught basics of robotics and programming using Blockly.'
+  },
+
+  {
+    id: 2,
+    role: 'Frontend Developer (Volunteer)',
+    organization: 'Tech For Good NGO',
+    date: 'Jan 2023 - Present',
+    description:
+      'Contributed to building a new website for a non-profit, improving their online presence and donation flow using React and Tailwind.'
+  },
+  {
+    id: 3,
+    role: 'Hackathon Collaborator',
+    organization: 'Wikimedia Hackathon 2025',
+    date: 'January 2025',
+    description:
+      'Teamed up with other developers to build a "A Movie Collabo tool" in 48 hours. I was responsible for UI/UX design and API integration.'
+  },
+  {
+    id: 4,
+    role: 'Full-Stack Developer',
+    organization: 'Rebase Code Camp 2015',
+    date: 'July 2025',
+    description:
+      'Teamed up with 3 other developers to build a "chess app" in 48 hours. I was responsible for the entire frontend and API integration.'
+  }
+  // Add more job, volunteer, or collaboration items here
+]
