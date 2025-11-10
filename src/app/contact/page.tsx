@@ -47,7 +47,7 @@ export default function ContactPage() {
                     href="mailto:your-email@example.com"
                     className="text-lg text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
                   >
-                    mbiydzenyuy3@gmail.com
+                    mbiydzenyuyeileen@gmail.com
                   </a>
                 </div>
               </div>

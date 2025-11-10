@@ -355,7 +355,7 @@ export default function Portfolio4() {
             </h1>
             <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Software Engineer focused on creating user-friendly web and mobile
-              tools that enhance the digital experience for my clients.
+              apps that enhance the digital experience for my clients.
             </p>
             <div className="flex flex-wrap gap-3 mb-10">
               <a
@@ -377,23 +377,23 @@ export default function Portfolio4() {
               </p>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://github.com/Mbiydzenyuy3"
                   className="social-link w-8 h-8 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-transform hover:-translate-y-0.5 hover:bg-slate-100 dark:hover:bg-slate-800"
                 >
                   <GithubIcon />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/eileen-leila/"
                   className="social-link w-8 h-8 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-transform hover:-translate-y-0.5 hover:bg-slate-100 dark:hover:bg-slate-800"
                 >
                   <LinkedinIcon />
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="social-link w-8 h-8 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-transform hover:-translate-y-0.5 hover:bg-slate-100 dark:hover:bg-slate-800"
                 >
                   <TwitterIcon />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
