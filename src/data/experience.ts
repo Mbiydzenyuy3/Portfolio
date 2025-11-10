@@ -1,4 +1,5 @@
 export interface ExperienceItem {
+  id?: number
   role: string
   organization: string
   date: string
@@ -7,6 +8,7 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
+    id: 1,
     role: 'Robotics Instructor (Volunteer)',
     organization: 'GOETHE INSTITUTE',
     date: '22 June 2025  - 11 July 2025',
@@ -15,6 +17,7 @@ export const experience: ExperienceItem[] = [
   },
 
   {
+    id: 2,
     role: 'Frontend Developer (Volunteer)',
     organization: 'Tech For Good NGO',
     date: 'Jan 2023 - Present',
@@ -22,6 +25,7 @@ export const experience: ExperienceItem[] = [
       'Contributed to building a new website for a non-profit, improving their online presence and donation flow using React and Tailwind.'
   },
   {
+    id: 3,
     role: 'Hackathon Collaborator',
     organization: 'Wikimedia Hackathon 2025',
     date: 'January 2025',
@@ -29,7 +33,8 @@ export const experience: ExperienceItem[] = [
       'Teamed up with other developers to build a "A Movie Collabo tool" in 48 hours. I was responsible for UI/UX design and API integration.'
   },
   {
-    role: 'Hackathon Collaborator',
+    id: 4,
+    role: 'Full-Stack Developer',
     organization: 'Rebase Code Camp 2015',
     date: 'July 2025',
     description:
