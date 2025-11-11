@@ -6,7 +6,7 @@ export interface Project {
   imageUrl: string
   techStack: string[]
   githubUrl: string
-  liveUrl?: string // Optional
+  liveUrl?: string 
 }
 
 export const projects: Project[] = [

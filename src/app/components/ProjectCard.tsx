@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { HiArrowTopRightOnSquare } from 'react-icons/hi2'
-import type { Project } from '@/data/project' // Import our new type
+import type { Project } from '@/data/project'
 import { HiCode } from 'react-icons/hi'
 
 interface ProjectCardProps {
@@ -30,7 +30,6 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.description}
         </p>
 
-        {/* Tech Stack Tags */}
         <div className="flex flex-wrap gap-2 mb-6">
           {project.techStack.map((tech) => (
             <span
@@ -43,7 +42,6 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           ))}
         </div>
 
-        {/* Links */}
         <div className="flex space-x-4">
           <a
             href={project.githubUrl}

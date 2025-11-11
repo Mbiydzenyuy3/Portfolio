@@ -1,7 +1,6 @@
 'use client'
 import React, { useRef, useEffect, useCallback } from 'react'
 
-// cn utility function (similar to clsx or classnames)
 function cn(...classes: (string | boolean | undefined | null)[]): string {
   return classes.filter(Boolean).join(' ')
 }
