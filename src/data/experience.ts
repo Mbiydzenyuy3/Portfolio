@@ -40,5 +40,4 @@ export const experience: ExperienceItem[] = [
     description:
       'Teamed up with 3 other developers to build a "chess app" in 48 hours. I was responsible for the entire frontend and API integration.'
   }
-  // Add more job, volunteer, or collaboration items here
 ]
