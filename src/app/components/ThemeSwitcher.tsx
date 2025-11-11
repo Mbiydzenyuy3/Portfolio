@@ -8,14 +8,12 @@ export const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
-  // useEffect only runs on the client, so we can safely show the UI
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true)
   }, [])
 
   if (!mounted) {
-    // Render a placeholder or nothing to avoid hydration mismatch
     return <div className="w-6 h-6" />
   }
 
