@@ -2,8 +2,6 @@
 'use client'
 // import { title } from 'process'
 import React from 'react'
-
-// SVG Logo Components (as provided in the user request)
 const ReactLogo = () => (
   <svg
     height="50"
