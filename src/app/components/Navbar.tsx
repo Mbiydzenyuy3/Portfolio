@@ -20,7 +20,6 @@ export const Navbar = () => {
       {/* Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo / Your Name */}
           <div className="flex-shrink-0">
             <Link
               href="/"
@@ -67,7 +66,7 @@ export const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
-              onClick={() => setIsOpen(false)} // Close menu on link click
+              onClick={() => setIsOpen(false)}
               className="block px-4 py-2 text-white hover:bg-gray-100 hover:text-black transition-colors duration-200"
             >
               {link.label}
