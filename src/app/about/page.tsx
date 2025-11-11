@@ -5,12 +5,11 @@ import { experience } from '@/data/experience'
 export default function AboutPage() {
   return (
     <div className="bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
-      {/* Section 1: Introduction */}
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
             <img
-              src="https://i.pinimg.com/736x/d6/8a/12/d68a121e960094f99ad8acd37505fb7d.jpg" // Re-using your profile image
+              src="https://i.pinimg.com/736x/d6/8a/12/d68a121e960094f99ad8acd37505fb7d.jpg"
               alt="eileen"
               width={400}
               height={400}
@@ -34,7 +33,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      {/* Section 2: My Skills */}
       <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -67,8 +65,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      ---
-      {/* Section 3: My Journey (Experience & Volunteering) */}
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
