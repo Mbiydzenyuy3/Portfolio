@@ -16,7 +16,7 @@ const socialLinks = [
     label: 'Twitter/X',
     icon: FaTwitter
   }
-  // Add more socials as needed
+ 
 ]
 
 export const Footer = () => {
@@ -24,7 +24,6 @@ export const Footer = () => {
     <footer className="bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-700 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          {/* Social Links */}
           <div className="flex space-x-6">
             {socialLinks.map((social) => (
               <a
@@ -41,9 +40,8 @@ export const Footer = () => {
             ))}
           </div>
 
-          {/* Copyright */}
           <p className="text-gray-600 dark:text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Mbiydzenyuy. All rights reserved.
+            &copy; {new Date().getFullYear()} Mbiydzenyuy Eileen Leila. All rights reserved.
           </p>
         </div>
       </div>
