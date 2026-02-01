@@ -1,10 +1,10 @@
-## Developer Portfolio
+## My Portfolio
 
 This is the complete source code for my personal developer portfolio, built with Next.js and Tailwind CSS. This site showcases my projects, shares my professional background, and provides a way to contact me.
 
 ### Live Demo
 
-- You can view the live deployed version at: https://your-domain.com
+- You can view the live deployed version at: https://portfolio-teal-eta-r2d2l1tt5z.vercel.app/
 
 ### Features
 
@@ -16,7 +16,7 @@ This is the complete source code for my personal developer portfolio, built with
 
 ### Project Showcase
 
-- A filterable gallery of my work, with dynamic routes for detailed project case study pages.
+- A filterable gallery of my projects.
 
 ### 🛠️ Tech Stack
 
@@ -53,8 +53,8 @@ Install the project's dependencies. (I recommend pnpm for speed and efficiency).
 
 Bash
 
-pnpm install
-(Or npm install / yarn install)
+npm install
+(Or pnpm install / yarn install depending on your preference)
 
 3. Run the Development Server
    Start the local development server.

@@ -4,7 +4,6 @@ import { useForm, ValidationError } from '@formspree/react'
 import { HiCheckCircle, HiExclamationCircle } from 'react-icons/hi'
 
 export const ContactForm = () => {
-  // Replace 'YOUR_FORM_ID' with the ID you got from Formspree
   const [state, handleSubmit] = useForm('mgvrwajn')
 
   if (state.succeeded) {
