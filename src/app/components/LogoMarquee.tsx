@@ -452,8 +452,6 @@ const logos1 = [
 ]
 
 function Logomarquee() {
-  // We need to inject the keyframes animation into the document's head
-  // because Tailwind CSS doesn't directly support the 'cqw' unit.
   React.useEffect(() => {
     const styleSheet = document.createElement('style')
     styleSheet.innerText = `
